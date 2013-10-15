@@ -24,4 +24,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="calfflac.in">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="calfflac.out">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
 </Project>
