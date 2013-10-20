@@ -10,7 +10,9 @@
 #define PUBLIC_H
 
 
-#define CALFFLAC_C								//回文
+//#define CALFFLAC_C								//回文
+#define CRYPT1											//牛式
+
 
 
 #endif

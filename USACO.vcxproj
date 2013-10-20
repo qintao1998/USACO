@@ -80,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="calfflac.cpp" />
+    <ClCompile Include="crypt1.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="calfflac.in" />

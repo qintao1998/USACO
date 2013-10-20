@@ -23,6 +23,9 @@
     <ClCompile Include="calfflac.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="crypt1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="calfflac.in">
