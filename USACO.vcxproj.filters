@@ -34,5 +34,11 @@
     <None Include="calfflac.out">
       <Filter>源文件</Filter>
     </None>
+    <None Include="crypt1.in">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="crypt1.out">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>

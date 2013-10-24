@@ -5,7 +5,7 @@ TASK: calfflac
 */
 
 #include"public.h"
-#ifdef CALFFLAC_C
+#ifdef CALFFLAC
 
 #include<stdio.h>
 #include<stdlib.h>

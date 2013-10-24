@@ -85,6 +85,8 @@
   <ItemGroup>
     <None Include="calfflac.in" />
     <None Include="calfflac.out" />
+    <None Include="crypt1.in" />
+    <None Include="crypt1.out" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
