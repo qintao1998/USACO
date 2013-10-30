@@ -14,17 +14,17 @@ TASK: crypt1
 
 int main(void)
 {
-	FILE *fin;
-	FILE *fout;
+	FILE *fin;																						//读入文件指针
+	FILE *fout;																					//写入文件指针
 
 	int NumLength = 0;																		//变量声明
-	int num[10] = {0};
-	char ch;
-	int temp;
-	int one,two,three;
-	int sum = 0;
-	int TempNum[15] = {0};
-	int FindFlag = 0;
+	int num[10] = {0};																		//读入的数据
+	char ch;																						//每次读入的字符
+	int temp;																						//暂存数据
+	int one,two,three;																			//第一个乘数、第二个乘数、结果
+	int sum = 0;																					//查找到牛式的总数
+	int TempNum[15] = {0};																//分解的乘数
+	int FindFlag = 0;																			//查找到的标志
 
 	if(NULL==(fin = fopen("crypt1.in","r")))											//打开文件
 	{

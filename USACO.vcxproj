@@ -81,12 +81,14 @@
   <ItemGroup>
     <ClCompile Include="calfflac.cpp" />
     <ClCompile Include="crypt1.cpp" />
+    <ClCompile Include="packrec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="calfflac.in" />
     <None Include="calfflac.out" />
     <None Include="crypt1.in" />
     <None Include="crypt1.out" />
+    <None Include="packrec.in" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
